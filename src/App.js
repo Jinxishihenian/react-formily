@@ -4,6 +4,7 @@ import Form2 from "./components/form2";
 import Form3 from "./components/form3";
 import Form4 from "./components/form4";
 import FormCSZ from "./components/form_csz";
+import FormCSZFilter from "./components/form_csz_filter";
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
             <FormCSZ/>
             <h1>Form4</h1>
             <Form4/>
+            <h1>FormCSZFilter</h1>
+            <FormCSZFilter/>
         </div>
     );
 }

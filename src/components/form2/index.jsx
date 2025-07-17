@@ -1,10 +1,10 @@
 import React from 'react'
-import {createForm} from '@formily/core'
-import {createSchemaField} from '@formily/react'
-import {Form, FormItem, Input, Password, Submit} from '@formily/antd-v5'
-import {Tabs, Card} from 'antd'
+import { createForm } from '@formily/core'
+import { createSchemaField } from '@formily/react'
+import { Form, FormItem, Input, Password, Submit } from '@formily/antd-v5'
+import { Tabs, Card } from 'antd'
 import * as ICONS from '@ant-design/icons'
-import {VerifyCode} from './VerifyCode'
+import { VerifyCode } from './VerifyCode'
 
 const normalForm = createForm({
     validateFields: true,
@@ -26,13 +26,14 @@ const SchemaField = createSchemaField({
 })
 
 const Form2 = () => {
-    return (<div
+    return (
+        <div
             style={{
                 display: 'flex', justifyContent: 'center', background: '#eee', padding: '40px 0'
             }}
         >
-            <Card style={{width: 400}}>
-                <Tabs style={{overflow: 'visible', marginTop: -10}}>
+            <Card style={{ width: 400 }}>
+                <Tabs style={{ overflow: 'visible', marginTop: -10 }}>
                     <Tabs.TabPane key={"1"} tab={"账密登录"}>
                         <Form
                             form={normalForm}
