@@ -4,6 +4,7 @@ import Form2 from "./components/form2";
 import Form3 from "./components/form3";
 import Form4 from "./components/form4";
 import FormCSZ from "./components/form_csz";
+import FormSelectInput from "./components/form_select_input";
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
             <FormCSZ/>
             <h1>Form4</h1>
             <Form4/>
+            <h1>Form 选择框</h1>
+            <FormSelectInput/>
+            <h1>Form 表单筛选 JSON Schema 模式</h1>
         </div>
     );
 }

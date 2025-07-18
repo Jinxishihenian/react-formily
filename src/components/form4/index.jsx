@@ -134,8 +134,10 @@ const Form4 = () => {
                         <SchemaField.Void
                             title={"姓名"}
                             x-decorator="FormItem"
+                            // 自定义属性.
                             x-decorator-props={{
-                                asterisk: true, feedbackLayout: 'none',
+                                asterisk: true,
+                                feedbackLayout: 'none',
                             }}
                             x-component="FormGrid"
                         >
